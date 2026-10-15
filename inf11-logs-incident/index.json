@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: awaria usługi — analiza logów",
+  "description": "Zdiagnozuj celowo błędną konfigurację nginx, napraw ją i uzasadnij przyczynę awarii.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Zidentyfikuj niedostępną usługę",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Odczytaj komunikat błędu",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Napraw i uruchom usługę",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Sporządź raport z incydentu",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

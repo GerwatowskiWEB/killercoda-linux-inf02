@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: TCP/IP — śledztwo sieciowe",
+  "description": "Ustal, dlaczego jedna usługa jest niedostępna, a druga działa; sprawdź DNS, porty i połączenie HTTP.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Zapisz konfigurację hosta",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Rozpoznaj problem DNS",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Sprawdź porty",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Przygotuj diagnozę warstwową",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

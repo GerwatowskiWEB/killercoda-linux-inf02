@@ -20,6 +20,30 @@
     },
     {
       "path": "linux-siec-netplan-przyklady"
+    },
+    {
+      "path": "inf11-linux-acl"
+    },
+    {
+      "path": "inf11-logs-incident"
+    },
+    {
+      "path": "inf11-openssl-pki"
+    },
+    {
+      "path": "inf11-python-logins"
+    },
+    {
+      "path": "inf11-sql-security"
+    },
+    {
+      "path": "inf11-ssh-hardening"
+    },
+    {
+      "path": "inf11-tcpip-diagnostics"
+    },
+    {
+      "path": "inf11-ufw-firewall"
     }
   ]
 }

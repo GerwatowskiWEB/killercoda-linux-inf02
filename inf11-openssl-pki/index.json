@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: OpenSSL — szkolne CA i certyfikat TLS",
+  "description": "Zbuduj własny urząd certyfikacji, podpisz certyfikat serwera z SAN i zweryfikuj łańcuch zaufania.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Utwórz klucz CA i certyfikat",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Przygotuj żądanie CSR",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Podpisz certyfikat serwera",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Wykryj naruszenie integralności",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

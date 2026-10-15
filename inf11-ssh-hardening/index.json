@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: audyt i utwardzanie SSH",
+  "description": "Wykryj niebezpieczne ustawienia i uruchom niezależną, chronioną instancję sshd na lokalnym porcie 2222.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Przeprowadź audyt konfiguracji",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Zabezpiecz konfigurację",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Włącz autoryzację kluczem",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Przetestuj połączenie lokalne",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

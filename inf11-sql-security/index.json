@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: SQL — najmniejsze uprawnienia i backup",
+  "description": "Zabezpiecz konta MariaDB, ogranicz uprawnienia i sprawdź odzyskiwanie danych w izolowanym kontenerze.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Zidentyfikuj role i uprawnienia",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Ogranicz uprawnienia konta audyt",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Potwierdź blokadę modyfikacji danych",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Wykonaj i zweryfikuj backup",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu-4GB"
+  }
+}

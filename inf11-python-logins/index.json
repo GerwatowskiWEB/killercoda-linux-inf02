@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: Python — wykrywanie nieudanych logowań",
+  "description": "Przeanalizuj syntetyczny dziennik logowania w CSV, wykryj podejrzane źródła i zapisz raport JSON.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Zbadaj dane wejściowe",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Wykryj serię błędnych logowań",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Wygeneruj raport JSON",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Sprawdź odporność na zmiany danych",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

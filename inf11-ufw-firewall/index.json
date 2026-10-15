@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: UFW — reguły i test dostępu",
+  "description": "Zbuduj reguły UFW wewnątrz odseparowanego kontenera; nie zmieniaj zapory maszyny Killercoda.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Sprawdź izolację i stan zapory",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Skonfiguruj bezpieczne reguły",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Włącz filtr w kontenerze",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Przeprowadź kontrolę konfiguracji",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

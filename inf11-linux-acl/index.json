@@ -1,0 +1,38 @@
+{
+  "title": "INF.11: Linux — użytkownicy i ACL",
+  "description": "Nadaj uprawnienia do poufnych plików tak, aby wskazane role miały dokładnie wymagany dostęp.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh"
+    },
+    "steps": [
+      {
+        "title": "Przygotuj katalog projektu",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Chroń poufny plik",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Nadaj dodatkowe prawo ACL",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Zweryfikuj odmowę nieuprawnionego dostępu",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
