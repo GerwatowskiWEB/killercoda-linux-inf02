@@ -17,6 +17,9 @@
     },
     {
       "path": "linux-siec-netplan"
+    },
+    {
+      "path": "linux-siec-netplan-przyklady"
     }
   ]
 }
