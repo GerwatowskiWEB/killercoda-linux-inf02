@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'rc=$?; [ "$rc" -ne 0 ] && touch /tmp/setup-failed; touch /tmp/finished' EXIT
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq && apt-get install -y -qq nginx curl netcat-openbsd >/dev/null
 printf '127.0.0.1 serwis.inf11.test

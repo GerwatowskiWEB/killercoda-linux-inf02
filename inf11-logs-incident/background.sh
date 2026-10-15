@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'rc=$?; [ "$rc" -ne 0 ] && touch /tmp/setup-failed; touch /tmp/finished' EXIT
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq && apt-get install -y -qq nginx curl >/dev/null
 mkdir -p /var/www/inf11

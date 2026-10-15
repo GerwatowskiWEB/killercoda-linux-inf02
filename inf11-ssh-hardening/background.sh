@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'rc=$?; [ "$rc" -ne 0 ] && touch /tmp/setup-failed; touch /tmp/finished' EXIT
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -qq && apt-get install -y -qq openssh-server openssh-client >/dev/null
 id labssh >/dev/null 2>&1 || useradd -m -s /bin/bash labssh

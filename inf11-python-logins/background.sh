@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'rc=$?; [ "$rc" -ne 0 ] && touch /tmp/setup-failed; touch /tmp/finished' EXIT
 mkdir -p /root/inf11-python
 cat > /root/inf11-python/logowania.csv <<'EOF'
 czas,adres_ip,uzytkownik,wynik

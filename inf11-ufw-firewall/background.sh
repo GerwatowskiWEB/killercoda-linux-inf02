@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+trap 'rc=$?; [ "$rc" -ne 0 ] && touch /tmp/setup-failed; touch /tmp/finished' EXIT
 export DEBIAN_FRONTEND=noninteractive
 # Kontener NET_ADMIN, bez --privileged i bez --network host. Brak mapowania portów na hosta.
 command -v docker >/dev/null

@@ -1,6 +1,6 @@
 # Krok 1. Przygotuj katalog projektu
 
-Konto `analityk` powinno mieć dostęp do katalogu tylko dla siebie i swojej grupy. Sprawdź `id`, `ls -ld`, `getent group`.
+Katalog ma być dostępny tylko dla jego właściciela i grupy `inf11analiza`. Sprawdź `id`, `ls -ld`, `getent group`.
 
 **Zadanie:** utwórz katalog `/srv/inf11/dokumenty` o właścicielu `root`, grupie `inf11analiza` i trybie `770`. Przygotowane konta to `anna` i `bartek`.
 
