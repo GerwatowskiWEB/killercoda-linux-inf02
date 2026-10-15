@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "path": "linux-pliki-nawigacja"
+    },
+    {
+      "path": "linux-uprawnienia-uzytkownicy"
+    },
+    {
+      "path": "linux-procesy-uslugi-logi"
+    },
+    {
+      "path": "linux-siec-diagnostyka"
+    },
+    {
+      "path": "linux-zadanie-praktyczne"
+    }
+  ]
+}

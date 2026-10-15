@@ -1,0 +1,22 @@
+{
+  "title": "Linux: zadanie praktyczne (samodzielne)",
+  "description": "Samodzielne zadanie zaliczeniowe na bazie lekcji o poleceniach Linux.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Samodzielna praca",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

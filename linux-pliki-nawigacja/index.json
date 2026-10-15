@@ -1,0 +1,37 @@
+{
+  "title": "Linux: terminal, ścieżki i pliki",
+  "description": "Pierwsze polecenia, poruszanie się po katalogach, tworzenie plików, grep, przekierowania i potoki.",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Rozpoznaj system i nawiguj",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Twórz, kopiuj i przenoś pliki",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Czytaj i filtruj zawartość",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Przekierowania i potoki",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
