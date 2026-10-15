@@ -14,6 +14,9 @@
     },
     {
       "path": "linux-zadanie-praktyczne"
+    },
+    {
+      "path": "linux-siec-netplan"
     }
   ]
 }

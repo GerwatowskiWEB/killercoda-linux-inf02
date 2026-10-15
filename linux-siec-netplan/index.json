@@ -1,0 +1,44 @@
+{
+  "title": "Linux: konfiguracja sieci z netplan (YAML)",
+  "description": "Pisanie plików YAML netplan, adresy, trasy, DNS, szukanie błędów i bezpieczne wdrażanie zmian.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
+    },
+    "steps": [
+      {
+        "title": "Poznaj konfigurację netplan",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Napisz pierwszy plik YAML",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Drugi adres, trasa i DNS",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Znajdź błąd w YAML",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Bezpieczna zmiana: netplan try",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
